@@ -31,7 +31,6 @@ The packages below all power Haplo and are free for anyone else building local A
 
 | Package | What it does |
 |---|---|
-| 🐪 **[Kuzco](https://github.com/haplollc/Kuzco)** | On-device LLM, vision, image, and 3D inference for Apple platforms. Wraps llama.cpp + others into a clean Swift API. |
 | 🎭 **[Gepetto](https://github.com/haplollc/Gepetto)** | LLM-driven browser automation. Native WKWebView agent loop with multi-step task execution and AI validation. |
 | 🔥 **[Forge](https://github.com/haplollc/Forge)** | Floating SwiftUI debugger for local LLMs. Live tokens/sec, memory, context — for any inference stack. |
 
