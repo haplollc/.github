@@ -25,6 +25,50 @@
 <tr>
 <td width="50%" valign="top">
 
+### 📱 [iOS Eras](https://github.com/haplollc/ios-eras)
+
+Drag a ruler from 2007 to 2026 and watch the iPhone rebuild itself. Every
+stock app arrives in the release it shipped in, every icon is redrawn at
+every redesign, and the dock, the notch and the Dynamic Island morph from one
+year to the next. Every position was measured off a real screenshot of that
+version.
+
+**[Try it in your browser →](https://haplollc.github.io/ios-eras/)**
+
+</td>
+<td width="50%" valign="top">
+
+<img src="https://raw.githubusercontent.com/haplollc/ios-eras/main/media/home-screen-eras.gif" width="100%" alt="Scrubbing the iPhone home screen from 2007 to 2026">
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+<img src="https://raw.githubusercontent.com/haplollc/ThinkingOrbs/main/assets/banner-light.gif" width="100%" alt="All nine ThinkingOrbs designs animating side by side">
+
+</td>
+<td width="50%" valign="top">
+
+### 🔮 [ThinkingOrbs](https://github.com/haplollc/ThinkingOrbs)
+
+Dotted, genuinely 3D loading indicators for AI and agent interfaces. Nine
+hand-tuned designs and two purpose-tuned sizes, drawn only in grayscale dots
+so they sit quietly in any interface, light or dark.
+
+```swift
+ThinkingOrb(.searching)
+```
+
+That is the whole integration.
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
 ### 🪙 [Minted](https://github.com/haplollc/Minted)
 
 Hand it a flat image of a pin and get back a real 3D coin: the artwork
@@ -92,6 +136,13 @@ await globe.scanPhotoLibrary()
 | 🪙 **[Minted](https://github.com/haplollc/Minted)** | Flat pin artwork becomes a physically lit 3D coin, with the gold in the art rendered as real metal. Also mints coins from SVG paths. | ![stars](https://img.shields.io/github/stars/haplollc/Minted?style=flat&label=%20&color=gray) |
 | 🌍 **[ClayGlobe](https://github.com/haplollc/ClayGlobe)** | A claymorphic 3D globe that plants flags on visited countries, with offline coordinate-to-country lookups. | ![stars](https://img.shields.io/github/stars/haplollc/ClayGlobe?style=flat&label=%20&color=gray) |
 | 💪 **[MuscleMapKit](https://github.com/haplollc/MuscleMapKit)** | An interactive 3D body that shades each muscle by how hard it was worked, spins under a finger, and reports taps by muscle group. | ![stars](https://img.shields.io/github/stars/haplollc/MuscleMapKit?style=flat&label=%20&color=gray) |
+
+### Interface
+
+| Package | What it does | |
+|---|---|---|
+| 🔮 **[ThinkingOrbs](https://github.com/haplollc/ThinkingOrbs)** | Dotted, genuinely 3D loading indicators for AI and agent interfaces. Nine designs, two sizes, one line to drop in. | ![stars](https://img.shields.io/github/stars/haplollc/ThinkingOrbs?style=flat&label=%20&color=gray) |
+| 📱 **[iOS Eras](https://github.com/haplollc/ios-eras)** | Twenty years of iPhone on one ruler: the home screen and the button from 2007 to 2026, in SwiftUI and [in the browser](https://haplollc.github.io/ios-eras/). | ![stars](https://img.shields.io/github/stars/haplollc/ios-eras?style=flat&label=%20&color=gray) |
 
 ### Runtimes
 
