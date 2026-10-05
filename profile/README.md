@@ -136,6 +136,7 @@ await globe.scanPhotoLibrary()
 | 🪙 **[Minted](https://github.com/haplollc/Minted)** | Flat pin artwork becomes a physically lit 3D coin, with the gold in the art rendered as real metal. Also mints coins from SVG paths. | ![stars](https://img.shields.io/github/stars/haplollc/Minted?style=flat&label=%20&color=gray) |
 | 🌍 **[ClayGlobe](https://github.com/haplollc/ClayGlobe)** | A claymorphic 3D globe that plants flags on visited countries, with offline coordinate-to-country lookups. | ![stars](https://img.shields.io/github/stars/haplollc/ClayGlobe?style=flat&label=%20&color=gray) |
 | 💪 **[MuscleMapKit](https://github.com/haplollc/MuscleMapKit)** | An interactive 3D body that shades each muscle by how hard it was worked, spins under a finger, and reports taps by muscle group. | ![stars](https://img.shields.io/github/stars/haplollc/MuscleMapKit?style=flat&label=%20&color=gray) |
+| 🎏 **[KoiPond](https://github.com/haplollc/KoiPond)** | A living koi pond under any SwiftUI view: koi glide over it, lily pads drift on top, and a Metal shader ripples and refracts it all. Tap to feed, drag to stir, or drain it into a pool. | ![stars](https://img.shields.io/github/stars/haplollc/KoiPond?style=flat&label=%20&color=gray) |
 
 ### Interface
 
@@ -143,6 +144,9 @@ await globe.scanPhotoLibrary()
 |---|---|---|
 | 🔮 **[ThinkingOrbs](https://github.com/haplollc/ThinkingOrbs)** | Dotted, genuinely 3D loading indicators for AI and agent interfaces. Nine designs, two sizes, one line to drop in. | ![stars](https://img.shields.io/github/stars/haplollc/ThinkingOrbs?style=flat&label=%20&color=gray) |
 | 📱 **[iOS Eras](https://github.com/haplollc/ios-eras)** | Twenty years of iPhone on one ruler: the home screen and the button from 2007 to 2026, in SwiftUI and [in the browser](https://haplollc.github.io/ios-eras/). | ![stars](https://img.shields.io/github/stars/haplollc/ios-eras?style=flat&label=%20&color=gray) |
+| 🫧 **[SiriGlass](https://github.com/haplollc/SiriGlass)** | The Siri drop from iOS 27 for your own app: Liquid Glass that pours out of the Dynamic Island, listens, and lights up with your voice. `.siriGlass($siri)` and you are done. | ![stars](https://img.shields.io/github/stars/haplollc/SiriGlass?style=flat&label=%20&color=gray) |
+| 🎚️ **[Scrubbers](https://github.com/haplollc/Scrubbers)** | Twelve sliders you'll want to touch: jelly, Liquid Glass, fluid, swing, thermostat, mood and more. One view, one enum. | ![stars](https://img.shields.io/github/stars/haplollc/Scrubbers?style=flat&label=%20&color=gray) |
+| ⏳ **[ProcessingField](https://github.com/haplollc/ProcessingField)** | A progress field: a grid of marks whose sizes trace one soft shape that drifts, folds and breathes while your app is busy. | ![stars](https://img.shields.io/github/stars/haplollc/ProcessingField?style=flat&label=%20&color=gray) |
 
 ### Runtimes
 
