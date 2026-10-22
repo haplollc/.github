@@ -2,7 +2,7 @@
 
 <p align="center">
   <strong>Swift packages for things that should be hard.</strong><br>
-  <em>On-device AI, real 3D, live interpreters. All running on the phone in your pocket.</em>
+  <em>On-device AI, real 3D, live interpreters, and tools for coding with agents. All running on hardware you already own.</em>
 </p>
 
 <p align="center">
@@ -22,6 +22,32 @@
 ## Featured
 
 <table>
+<tr>
+<td width="50%" valign="top">
+
+<img src="https://raw.githubusercontent.com/haplollc/.github/main/profile/assets/vesalius-race.gif" width="100%" alt="The same 20 questions answered by Claude Code alone and with Vesalius: 4.1M tokens against 2.3M, with answers graded just as good">
+
+</td>
+<td width="50%" valign="top">
+
+### 🩻 [Vesalius](https://github.com/haplollc/Vesalius)
+
+A map of your codebase for Claude Code, built on your Mac. Vesalius indexes
+a repository into a graph of files, symbols, references and calls, so your
+agent can ask "who calls this?" or "where does this feature live?" and get
+the answer in one step, with file:line evidence, instead of grepping its
+way there.
+
+```bash
+claude mcp add --scope user vesalius -- vesalius mcp
+```
+
+Across 20 real questions graded blind, Claude Code used about half the tokens
+for answers just as good. A Mac app and a VS Code extension come with it.
+
+</td>
+</tr>
+
 <tr>
 <td width="50%" valign="top">
 
@@ -129,6 +155,15 @@ await globe.scanPhotoLibrary()
 | 🕸️ **[Mesh](https://github.com/haplollc/Mesh)** | Peer-to-peer model federation over the LAN, so an iPhone can borrow the 70B running on your Mac. | ![stars](https://img.shields.io/github/stars/haplollc/Mesh?style=flat&label=%20&color=gray) |
 | ✨ **[Apparition](https://github.com/haplollc/Apparition)** | One modifier that gives any SwiftUI view AI awareness. `.aiAware()` and you are done. | ![stars](https://img.shields.io/github/stars/haplollc/Apparition?style=flat&label=%20&color=gray) |
 
+### Developer tools
+
+| Tool | What it does | |
+|---|---|---|
+| 🩻 **[Vesalius](https://github.com/haplollc/Vesalius)** | A code graph built on your Mac that Claude Code and other MCP clients query instead of grepping: who calls what, where a feature lives, what a change breaks. Comes with a Mac app and a VS Code extension. | |
+| ✦ **[Podium](https://github.com/haplollc/podium)** | A local-model terminal coding agent with tools, skills, plan mode and subagents, tuned for small context windows and modest Macs. `brew install haplollc/tap/podium` | ![stars](https://img.shields.io/github/stars/haplollc/podium?style=flat&label=%20&color=gray) |
+| 📄 **[md2pdf](https://github.com/haplollc/md2pdf)** | A native Mac app and CLI that turns Markdown into pixel-perfect PDFs: tables, highlighted code, LaTeX math, Mermaid diagrams, and page breaks that never slice a line in half. | ![stars](https://img.shields.io/github/stars/haplollc/md2pdf?style=flat&label=%20&color=gray) |
+| 🎬 **[greenscreen-to-hevc-alpha](https://github.com/haplollc/greenscreen-to-hevc-alpha)** | Strips a green screen from a video and exports HEVC with alpha, Apple's native transparent video, so a looping animation plays in `AVPlayer` with one line of SwiftUI. | ![stars](https://img.shields.io/github/stars/haplollc/greenscreen-to-hevc-alpha?style=flat&label=%20&color=gray) |
+
 ### Graphics and 3D
 
 | Package | What it does | |
@@ -147,6 +182,7 @@ await globe.scanPhotoLibrary()
 | 🫧 **[SiriGlass](https://github.com/haplollc/SiriGlass)** | The Siri drop from iOS 27 for your own app: Liquid Glass that pours out of the Dynamic Island, listens, and lights up with your voice. `.siriGlass($siri)` and you are done. | ![stars](https://img.shields.io/github/stars/haplollc/SiriGlass?style=flat&label=%20&color=gray) |
 | 🎚️ **[Scrubbers](https://github.com/haplollc/Scrubbers)** | Twelve sliders you'll want to touch: jelly, Liquid Glass, fluid, swing, thermostat, mood and more. One view, one enum. | ![stars](https://img.shields.io/github/stars/haplollc/Scrubbers?style=flat&label=%20&color=gray) |
 | ⏳ **[ProcessingField](https://github.com/haplollc/ProcessingField)** | A progress field: a grid of marks whose sizes trace one soft shape that drifts, folds and breathes while your app is busy. | ![stars](https://img.shields.io/github/stars/haplollc/ProcessingField?style=flat&label=%20&color=gray) |
+| 📝 **[Markdown](https://github.com/haplollc/Markdown)** | GitHub-flavored Markdown rendered as real SwiftUI views: headings, lists, tables, block quotes, fenced code and images, with a themeable style system. It powers md2pdf's PDF export. | ![stars](https://img.shields.io/github/stars/haplollc/Markdown?style=flat&label=%20&color=gray) |
 
 ### Runtimes
 
@@ -177,7 +213,8 @@ and Minted were both pulled out of it.
 ## Stack
 
 Apple Silicon &middot; Swift &middot; SwiftUI &middot; SceneKit &middot; Metal &middot;
-llama.cpp &middot; stable-diffusion.cpp &middot; ggml &middot; Apple Foundation Models &middot; SwiftData
+llama.cpp &middot; stable-diffusion.cpp &middot; ggml &middot; Apple Foundation Models &middot; SwiftData &middot;
+SwiftSyntax &middot; tree-sitter &middot; SQLite &middot; MCP
 
 ## License
 
