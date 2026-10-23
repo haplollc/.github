@@ -159,7 +159,7 @@ await globe.scanPhotoLibrary()
 
 | Tool | What it does | |
 |---|---|---|
-| 🩻 **[Vesalius](https://github.com/haplollc/Vesalius)** | A code graph built on your Mac that Claude Code and other MCP clients query instead of grepping: who calls what, where a feature lives, what a change breaks. Comes with a Mac app and a VS Code extension. | |
+| 🩻 **[Vesalius](https://github.com/haplollc/Vesalius)** | A code graph built on your Mac that Claude Code and other MCP clients query instead of grepping: who calls what, where a feature lives, what a change breaks. Comes with a Mac app and a VS Code extension. | ![stars](https://img.shields.io/github/stars/haplollc/Vesalius?style=flat&label=%20&color=gray) |
 | ✦ **[Podium](https://github.com/haplollc/podium)** | A local-model terminal coding agent with tools, skills, plan mode and subagents, tuned for small context windows and modest Macs. `brew install haplollc/tap/podium` | ![stars](https://img.shields.io/github/stars/haplollc/podium?style=flat&label=%20&color=gray) |
 | 📄 **[md2pdf](https://github.com/haplollc/md2pdf)** | A native Mac app and CLI that turns Markdown into pixel-perfect PDFs: tables, highlighted code, LaTeX math, Mermaid diagrams, and page breaks that never slice a line in half. | ![stars](https://img.shields.io/github/stars/haplollc/md2pdf?style=flat&label=%20&color=gray) |
 | 🎬 **[greenscreen-to-hevc-alpha](https://github.com/haplollc/greenscreen-to-hevc-alpha)** | Strips a green screen from a video and exports HEVC with alpha, Apple's native transparent video, so a looping animation plays in `AVPlayer` with one line of SwiftUI. | ![stars](https://img.shields.io/github/stars/haplollc/greenscreen-to-hevc-alpha?style=flat&label=%20&color=gray) |
