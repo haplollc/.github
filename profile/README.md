@@ -15,7 +15,12 @@
   <img src="https://img.shields.io/badge/Swift-5.9%2B-orange?logo=swift" alt="Swift">
   <img src="https://img.shields.io/badge/on--device-first-blueviolet" alt="On-device first">
   <img src="https://img.shields.io/badge/MIT-licensed-green" alt="MIT licensed">
-  <a href="https://buymeacoffee.com/jcbuilds"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?logo=buymeacoffee&logoColor=black" alt="Buy Me a Coffee"></a>
+</p>
+
+<p align="center">
+  <a href="https://buymeacoffee.com/jcbuilds"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me a Coffee" width="200"></a>
+  <br>
+  <sub>If something here is useful to you, a coffee keeps it going.</sub>
 </p>
 
 ---
