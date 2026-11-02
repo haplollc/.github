@@ -180,6 +180,7 @@ await globe.scanPhotoLibrary()
 | 🌍 **[ClayGlobe](https://github.com/haplollc/ClayGlobe)** | A claymorphic 3D globe that plants flags on visited countries, with offline coordinate-to-country lookups. | ![stars](https://img.shields.io/github/stars/haplollc/ClayGlobe?style=flat&label=%20&color=gray) |
 | 💪 **[MuscleMapKit](https://github.com/haplollc/MuscleMapKit)** | An interactive 3D body that shades each muscle by how hard it was worked, spins under a finger, and reports taps by muscle group. | ![stars](https://img.shields.io/github/stars/haplollc/MuscleMapKit?style=flat&label=%20&color=gray) |
 | 🎏 **[KoiPond](https://github.com/haplollc/KoiPond)** | A living koi pond under any SwiftUI view: koi glide over it, lily pads drift on top, and a Metal shader ripples and refracts it all. Tap to feed, drag to stir, or drain it into a pool. | ![stars](https://img.shields.io/github/stars/haplollc/KoiPond?style=flat&label=%20&color=gray) |
+| 🌊 **[LiquidPhotos](https://github.com/haplollc/LiquidPhotos)** | Photos that flow into each other: every pixel travels to its place in the next photo, and a shelf of photos flips each one out to meet you. `LiquidAlbum($photos)` and you are done. | ![stars](https://img.shields.io/github/stars/haplollc/LiquidPhotos?style=flat&label=%20&color=gray) |
 
 ### Interface
 
